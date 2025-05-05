@@ -19,8 +19,4 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  build: {
-    outDir: 'httpdocs', // Thư mục đầu ra sau khi build
-    emptyOutDir: true, // Xóa nội dung thư mục httpdocs trước khi build
-  },
 }));
